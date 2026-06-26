@@ -118,12 +118,17 @@
   .showcase-section .bottom{
     grid-template-columns: 1fr;
   }
-  .card{
+  .showcase-card{
     height: 250px;
   }
   .laptop-container img{
-    transform: translateY(30px);
+    transform: translateY(-30px);
   }
+
+  .showcase-section .bottom .phone img{
+  /* background-color: #723e3e; */
+  transform: translateY(-10px);
+}
 }
 
 
