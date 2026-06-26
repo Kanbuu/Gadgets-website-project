@@ -15,6 +15,7 @@
 .product-card{
   width: 400px;
   height: 400px;
+  background-color: aquamarine;
 }
  .product-card img{
   width: 100%;
