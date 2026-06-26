@@ -1,0 +1,22 @@
+.product-section{
+  width: 100%;
+  padding: 5%;
+  height: 100vh;
+  background-color: #2386e2;
+}
+
+.product-section .upper-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.product-card{
+  width: 400px;
+  height: 400px;
+}
+ .product-card img{
+  width: 100%;
+ }
+
