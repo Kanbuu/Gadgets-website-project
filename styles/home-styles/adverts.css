@@ -53,12 +53,13 @@
   color: black;
 }
 .advert-image-side{
+  max-width: 90%;
   flex: 1;
-  /* background-color: #fff; */
+  background-color: #352a2a;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .advert-image-side img{
-  width: 400px;
+  width: 200px;
 }
