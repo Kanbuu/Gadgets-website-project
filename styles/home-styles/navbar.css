@@ -63,12 +63,20 @@ font-size: 1.6rem;
   flex: 1;
   min-width: 300px;
   /* background-color: gray; */
-  color: rgb(180, 176, 176);  
+  color: rgb(250, 244, 244);  
  }
  header .text-container h1{
   font-size: 3rem;
   transform: translateY(-20px);
  }
+ 
+ header .text-container p{
+  font-size: 1.2rem;
+  margin: 20px 0;
+  line-height: 1.5;
+ 
+ }
+ 
  header .text-container p{
   max-width: 400px;
  }
