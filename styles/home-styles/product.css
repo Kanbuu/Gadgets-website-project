@@ -78,12 +78,21 @@
     color:white;
     border-radius:8px;
     cursor:pointer;
+    margin-bottom: 60px;
 }
 
 .products-container button:hover{
     background:#333;
 }
 
-@media (max-width:700px) {
-  
+@media (max-width:600px) {
+   .products-container{
+ display:grid;
+
+    /* Responsive Grid */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+
+    gap:25px;
+}
 }
