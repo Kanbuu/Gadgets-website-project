@@ -1,5 +1,5 @@
 .subscribe-section{
-  background-color:rgb(31, 25, 20);
+  background-color:#181c1f !important;
   height: max-content;
   width: 100%;
   display: flex;
@@ -49,22 +49,22 @@
   padding: 15px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #fff;
-  color: rgb(41, 38, 35);
+  background-color: crimson;
+  color: #fff;
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
 }
 .subscribe-cont button:hover{
-  background-color:crimson;
-  color: #fff;
+  background-color:black;
+  color:bla;
   transition: all 0.3s ease-in-out;
 }
 
 
 /* FOOTER STYLES */
 footer{
-  background-color:black;
+  background-color: #0c0e0f;
   color: #fff;
   padding: 5%;
   
@@ -90,6 +90,13 @@ footer{
   font-weight: bold;
   margin-bottom: 10px;
   margin-top: 10px;
+}
+.footer-socials {
+ color:crimson;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 50%;
 }
 .footer-links ul{
   list-style: none;
@@ -118,6 +125,7 @@ footer{
   text-align: center;
   margin-top: 60px;
   font-size: 0.9rem;
+  color: crimson;
 }
 
 @media (max-width:750px) {

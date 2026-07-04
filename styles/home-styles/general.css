@@ -8,7 +8,7 @@
 }
 
 body{
-  background-color: rgb(223, 102, 102);
+  background-color: rgb(255, 253, 253);
   font-family: poppins,sans-serif;
   position: relative;
   /* margin: 0; */
@@ -24,4 +24,31 @@ body{
     background: linear-gradient(to bottom, #0a0a0a, crimson);
 }
 
+
+ .general-navbar-styles{
+  background-color: black;
+  padding:0 5%;
+  margin-bottom: 0;
+ }
+
+
+.general-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  height: 60vh;
+  width: 100%;
+  color: white;
+  padding: 0 5%;
+}
+.general-header p{
+text-align: center;
+}
+.general-header h1{
+  text-align: center;
+  margin-top: 20px;
+  font-size:3rem;
+}
 
