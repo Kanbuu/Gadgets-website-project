@@ -1,0 +1,64 @@
+.customer-number {
+  /* background-color: #6bbb83; */
+  padding: 50px 5%;
+  /* text-align: center; */
+  width: 100%;
+  height: min-content;
+}
+
+.customer-number .main-container {
+  background-color: #dac8c8;
+  height:min-content;
+  transform: translateY(-30%);
+  border-radius: 20px;
+}
+.customer-number .image-cover-top {
+  width: 100%;
+  height: 400px;
+  background-color: #271c1c;
+  border-radius: 20px 20px 0 0;
+}
+.customer-number .image-cover-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+.customer-number .managers {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 100%;
+  height: max-content;
+  padding-bottom: 0px;
+  /* background-color: #86e21c; */
+} 
+
+.customer-number .managers .leader-cont {
+  background-color: #a59696;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: background-color 0.3s;
+  cursor: pointer;
+
+}
+.customer-number .managers .leader-cont:hover {
+  background-color: crimson;
+  color: white;
+  
+}
+
+.leader-cont h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+.leader-cont p {
+  text-align: center;
+  font-size: 1.3rem;
+  
+}
+  
