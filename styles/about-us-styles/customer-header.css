@@ -4,6 +4,7 @@
   /* text-align: center; */
   width: 100%;
   height: min-content;
+  margin-bottom: -150px;
 }
 
 .customer-number .main-container {
@@ -61,4 +62,12 @@
   font-size: 1.3rem;
   
 }
-  
+
+@media (max-width:980px) {
+  .customer-number .main-container {
+    transform: translateY(-10%);
+  }   
+}
+
+
+
