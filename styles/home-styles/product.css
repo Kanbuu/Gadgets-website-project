@@ -96,12 +96,18 @@
 
 @media (max-width:600px) {
    .products-container{
- display:grid;
+    display:grid;
 
     /* Responsive Grid */
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
 
     gap:25px;
+}
+.price{
+   font-size: 18px;
+}
+.card{
+    height: 380px;
 }
 }
