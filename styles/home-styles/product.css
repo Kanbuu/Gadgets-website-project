@@ -42,12 +42,15 @@
     transition:.3s;
     position: relative;
     height: 420px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     /* height: max-content; */
 }
 .card>.img-cont{
   height:50%;
   /* height: 100%; */
-  margin-bottom:40px ;
+  margin-bottom:10px ;
   /* background-color: #6e4545; */
 }
 
@@ -65,6 +68,8 @@
 
 .card h3{
     margin:15px 0 10px;
+    height: 60px;
+
 }
 
 .price{
@@ -109,6 +114,6 @@
    /* color: #111; */
 }
 .card{
-    height: 380px;
+    height: 400px;
 }
 }
